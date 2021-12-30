@@ -81,8 +81,9 @@ header nav ul li a {
     font-size: 30px;
     font-weight: bold;
     padding: 8px 5px;
-    
 }
+
+
 
 .main-content {
     display: flex;
@@ -93,9 +94,10 @@ header nav ul li a {
 
 .about-me {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: 20px;
+    align-items: center;
+    
+    
     
 }
 
@@ -108,10 +110,27 @@ header nav ul li a {
 
 .about-me-left, .about-me-right {
     padding: 60px;
+    
 }
 
 .about-me-right {
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-me-right img {
+    width: 300px;
+    padding: 0px;
+    
+}
+
+.about-me-right p {
+    padding: 30px;
+    width: 750px;
+    text-align: left;
 }
 
 
