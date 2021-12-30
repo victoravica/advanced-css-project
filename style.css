@@ -138,20 +138,25 @@ header nav ul li a {
     flex-wrap: wrap;
     width: 100%;
     position: relative;
-
-    
 }
-
-
-
 
 /*                  IMAGES FOR WORK SECTION*/
 
 .card {
     padding: 195px 0px 0px 0px;
     margin: 10px;
-    flex: 6;
+    display: inline-block;
   }
+
+.card:first-child {
+    width: 100%;
+}
+
+.card:not(:first-child) {
+    flex: 1;
+}
+
+
 
 .card img {
     width: 100%;
@@ -222,6 +227,7 @@ width: 100%;
     min-width: 300px;
     min-height: 300px;
     border: 4px var(--secondary-color) solid;
+    background-size: cover;
 
 }
 
@@ -231,6 +237,7 @@ width: 100%;
     min-width: 300px;
     min-height: 300px;
     border: 4px var(--secondary-color) solid;
+    background-size: cover;
 
 }
 
@@ -240,6 +247,7 @@ width: 100%;
     min-width: 300px;
     min-height: 300px;
     border: 4px var(--secondary-color) solid;
+    background-size: cover;
 
 }
 
@@ -249,6 +257,7 @@ width: 100%;
     min-width: 300px;
     min-height: 300px;
     border: 4px var(--secondary-color) solid;
+    background-size: cover;
 
 }
 
@@ -258,6 +267,7 @@ width: 100%;
     min-width: 300px;
     min-height: 300px;
     border: 4px var(--secondary-color) solid;
+    background-size: cover;
 }
 
 /*                                  TEXT STYLING FOR CARDS*/
